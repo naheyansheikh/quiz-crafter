@@ -1,0 +1,21 @@
+import { Button } from "@/components/ui/button";
+import Image from "next/image";
+
+export default function Home() {
+  return (
+    <div className="flex flex-col flex-1">
+      <main className="flex justify-center flex-1">
+        <div className="items-center flex flex-col sm:flex-row gap-20 justify-end mx-auto py-10 w-full sm:py-10 md:w-[1000px]">
+          <div>
+            <Image src="/images/landing.png" width="400" height="400" alt="owl" />
+          </div>
+          <div className="text-center flex gap-6 flex-col">
+            <h1 className="text-3xl font-bold">Master Your Material with AI Quizzes</h1>
+            <h3 className="text-sm">Upload your study documents and let AI transform them into interactive quizzes. Effortlessly test your knowledge and enhance your learning experience!</h3>
+            <Button variant="neo" className="mt-4 h-14 text-white">Get Started</Button>
+          </div>
+        </div>
+      </main>
+    </div>
+  )
+}
