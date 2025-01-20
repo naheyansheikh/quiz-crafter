@@ -34,13 +34,11 @@ QuizCrafter is a powerful tool designed to automatically create quizzes from pro
 - **OpenAI**: AI Integration
 - **Langchain**: LLM Framework
 - **Drizzle**: ORM
-- **PostgreSQL**: Database
+- **SQL**: Database
 - **Supabase**: Database Hosting
-- **Stripe**: Payments
 - **Tanstack**: Table Management
 - **TypeScript**: Type Checking
 - **Vercel**: Deployment
-- **Zod**: Schema Validation
 
 ## Getting Started
 
